@@ -37,7 +37,7 @@ public class MainActivity extends ListActivity {
 
         updatePlaylist();
 
-        lv=(ListView)findViewById(R.id.lvPlayList);
+
         stop = (Button)findViewById(R.id.buttonStop);
 
         stop.setOnClickListener(new View.OnClickListener() {
