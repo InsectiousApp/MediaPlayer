@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mannu.mediaplayer" >
 
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <service android:name="com.example.musicplayer.MusicService" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -15,10 +18,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".PlayerActivity"
-            android:label="@string/title_activity_player" >
         </activity>
     </application>
 
