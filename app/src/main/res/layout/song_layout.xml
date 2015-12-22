@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="7dp"
+    android:orientation="vertical">
+
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:indeterminate="false" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+    style="?android:attr/buttonStyleSmall"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="|&lt;"
+    android:id="@+id/btPv"
+    />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt;&lt;"
+            android:id="@+id/btFB"
+            />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="||"
+            android:id="@+id/btPlay"
+            />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">>"
+            android:id="@+id/btFF"
+            />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=">|"
+            android:id="@+id/btNxt"
+            />
+    </LinearLayout>
+
+</LinearLayout>
