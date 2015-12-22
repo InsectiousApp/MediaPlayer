@@ -48,7 +48,7 @@ public class MainActivity extends ListActivity {
         });
 
     }
-
+//
     public void updatePlaylist(){
 
        // File home = new File(String.valueOf(Environment.getExternalStorageDirectory()));      //This can b used for all files not only sd_card
