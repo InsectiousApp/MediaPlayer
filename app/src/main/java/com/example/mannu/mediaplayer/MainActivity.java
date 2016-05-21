@@ -13,6 +13,8 @@ import java.io.FilenameFilter;
 import java.util.ArrayList;
 import java.util.List;
 
+Button gitButton;
+
 class Mp3Filter implements FilenameFilter{
     public boolean accept(File dir, String name){
         return(name.endsWith(".mp3") || name.endsWith(".MP3"));
